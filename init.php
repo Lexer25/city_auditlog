@@ -13,7 +13,8 @@ Kohana::$config->load('menu')
         'title' => 'Аудит',
         'url' => 'auditlog',
         'icon' => 'fa-cog',
-        'order' => 100,
+        'order' => 400,
+		'disabled' => false, 
        
     ));
 
